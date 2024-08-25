@@ -80,6 +80,14 @@ p {
 }
 
 @media (max-width: 768px) {
+h1 {
+        margin-top: 3vh;
+        font-size: 48px;
+    }
+    p{
+        font-size: 30px;
+    }
+
     .countdown {
         flex-wrap: wrap;
         gap: 30px;
@@ -94,9 +102,12 @@ p {
 
 @media (max-width: 480px) {
     h1 {
-        text-align: center;
-        margin-top: 10vh;
+        font-size: 32px;
     }
+    p{
+        font-size: 20px;
+    }
+
 
     .countdown {
         gap: 15px;
